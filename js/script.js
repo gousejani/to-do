@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded",
 	function (event){
-		console.log("fuck off bitch");
 		var submitTask = document.querySelector(".submit-button");
 		var input = document.querySelector("input");
 		var ul = document.querySelector("ul");
@@ -54,7 +53,6 @@ document.addEventListener("DOMContentLoaded",
 			// console.log(this.parentNode);
 		}
 		function clearTask(){
-			console.log('aa')
 			this.parentNode.style.textDecoration ="line-through";
 			this.parentNode.style.opacity ="0.5";
 			ul.appendChild(this.parentNode);
